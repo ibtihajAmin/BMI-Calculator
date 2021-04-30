@@ -1,0 +1,69 @@
+body {
+    background-color: #373737;
+}
+
+.container .row .card {
+   background: #d1d1d1;
+   border-radius: 10px;
+   box-shadow: 30px 30px 60px 10px #797979;
+}
+
+.first-form .height-weight input {
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.first-form .kg input {
+    margin-left: 63px;
+}
+
+.click-for-modal {
+    font-size: 12px;
+    margin-bottom: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.modal-body .feet-inch {
+    display: inline;
+}
+
+.modal-body .feet-inch input {
+    margin-left: 10px;
+    width: 80px;
+}
+
+.custom-btn {
+    border: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+    background-image: linear-gradient(to left, #4fc8a9,#09646e, #4fc8a9 );
+}
+
+.custom-btn:hover {
+    background-position: right;
+    transition: all .6s ease-in;
+}
+
+#show-result{
+    color: #797979;
+    background-color: yellowgreen;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#show-convert-result {
+    color: #797979;
+    background-color: yellowgreen;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
